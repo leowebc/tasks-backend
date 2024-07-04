@@ -24,11 +24,9 @@ pipeline {
             }
         }
         stage ('Just Teste'){
-             steps {               
+            steps {               
                 bat ' erroooooooo '
             }
         }
-         
-       
     }
 }
