@@ -1,11 +1,10 @@
-pipeline{
+pipeline {
     agent any
     stages{
-        stage ('Just Test'){
+        stage ('Just Teste'){
             steps{
-                bat 'acho que deu certo'
+                bat "Espero que funcione"
             }
         }
     }
-      
 }
