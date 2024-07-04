@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage ('Build Backend'){
             steps {
-                bat 'Deus cert em nome de Jesus'
+                bat ' echo Deus cert em nome de Jesus'
             }
         }
     }
