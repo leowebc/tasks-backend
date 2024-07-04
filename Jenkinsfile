@@ -1,32 +1,10 @@
 pipeline {
     agent any
     stages {
-        stage ('Início'){
+        stage ('Build Backend'){
             steps {
-                bat ' echo início '
+                bat 'Deus cert em nome de Jesus'
             }
         }
-        stage ('Meio'){
-            steps {
-                bat ' echo maio '
-                bat ' echo maio '
-            }
-        }
-        stage ('Fim'){
-            steps {
-                sleep(5)
-                bat ' echo fim! '
-            }
-        }
-        stage ('Fim 2 '){
-            steps {               
-                bat ' echo fim! fIM MMMMMMM '
-            }
-        }
-        stage ('Ultimo'){
-            steps {
-                bat ' ver se dar certo ccccc'
-            }
-        }        
     }
 }
