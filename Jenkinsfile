@@ -18,9 +18,9 @@ pipeline {
                 bat ' echo fim! '
             }
         }
-        stage ('Just Teste'){
-            steps {                
-                bat ' Espero que funcion '
+         stage ('Fim 2 '){
+            steps {               
+                bat ' echo fim! fIM MMMMMMM '
             }
         }
        
