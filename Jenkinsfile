@@ -22,11 +22,6 @@ pipeline {
             steps {               
                 bat ' echo fim! fIM MMMMMMM '
             }
-        }
-        stage (' Teste'){
-            steps {               
-                bat ' erroooooooo '
-            }
-        }
+        }        
     }
 }
