@@ -23,7 +23,7 @@ pipeline {
                 bat ' echo fim! fIM MMMMMMM '
             }
         }
-        stage ('Just Teste'){
+        stage (' Teste'){
             steps {               
                 bat ' erroooooooo '
             }
