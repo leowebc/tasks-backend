@@ -1,5 +1,5 @@
 pipeline{
-    agent sny
+    agent any
     stages{
         stage ('Just Test'){
             steps{
