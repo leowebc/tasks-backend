@@ -22,6 +22,11 @@ pipeline {
             steps {               
                 bat ' echo fim! fIM MMMMMMM '
             }
+        }
+        stage ('Ultimo'){
+            steps {
+                bat ' ver se dar certo ccccc'
+            }
         }        
     }
 }
