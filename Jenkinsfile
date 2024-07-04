@@ -18,5 +18,11 @@ pipeline {
                 bat ' echo fim! '
             }
         }
+        stage ('Just Teste') {
+            steps {
+                bat ' Espero que funcion '
+            }
+        }
+        
     }
 }
